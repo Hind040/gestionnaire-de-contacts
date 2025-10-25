@@ -43,11 +43,11 @@ void modifier(struct liste contacts[100], int nombre) {
             scanf("%s", contacts[i].telephone);
             printf("la nouveau adresse e-mail : ");
             scanf("%s", contacts[i].email);
-            printf("le contact n'est pas trouve !\n");
+            printf(" Contact modifiee !\n");
             return;
             }
         }
-    printf("Contact modifiee!\n");
+    printf(" le contact n'est pas trouve !\n");
 }
 void supprimer(struct liste contacts[100], int *nombre) {
     char nomrecherche[50];
